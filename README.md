@@ -34,6 +34,17 @@ You can train a new model in plaid2018 dataset with the following command:
 You can train a new model in submetered plaid2018 dataset with the following command:
 
 		python main.py --dataset_name plaid2018 --sub 
-##
+##Citation
+If you find this project useful in your research, please consider cite:
+
+		@ARTICLE{10025855,
+  author={Zhang, Yusen and Wu, Hao and Ma, Qing and Yang, Qingrong and Wang, Yiwen},
+  journal={IEEE Transactions on Smart Grid}, 
+  title={A Learnable Image-Based Load Signature Construction Approach in NILM for Appliances Identification}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TSG.2023.3239598}}
 		
 
