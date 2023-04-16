@@ -20,8 +20,11 @@ The format of the data folder is as follows:
 	 	  |-whited
 		      |-whited.pickle
 	
-The .pickle file contains the current, voltage, label, _ in the PLAID2018 and WHITED data set
+The `.pickle` file contains the current, voltage, label, _ in the PLAID2018 and WHITED data set
 ## Training
-You can train a new model with the following command:
-
+You can train a new model in plaid2018 dataset with the following command:
+		python main.py --dataset_name plaid2018 
+You can train a new model in submetered plaid2018 dataset with the following command:
+		python main.py --dataset_name plaid2018 --sub 
+		
 
