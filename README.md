@@ -4,20 +4,24 @@ One of the tasks of Non-Intrusive Load Monitoring (NILM) is load identification,
 ## Data Preparation
 The format of the data folder is as follows:
 
-data
+		data
+		  |-lilac
+		      |-aggregated
+		            |-current.npy
+		            |-labels.npy
+		            |-voltage.npy
+		  |-plaid2018
+		      |-aggregated
+		            |-current.npy
+		            |-labels.npy
+		            |-voltage.npy
+		      |-sub
+		         |-plaid2018_sub.pickle
+	 	  |-whited
+		      |-whited.pickle
+	
+The .pickle file contains the current, voltage, label, _ in the PLAID2018 and WHITED data set
+## Training
+You can train a new model with the following command:
 
-|-lilac
- |-aggregated
- |-current.npy
- |-labels.npy
- |-voltage.npy
- |-plaid2018
- |-aggregated
- |-current.npy
- |-labels.npy
- |-voltage.npy
- |-sub
- |-plaid2018_sub.pickle
- |-whited
- |-whited.pickle
 
