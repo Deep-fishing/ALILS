@@ -4,11 +4,17 @@ One of the tasks of Non-Intrusive Load Monitoring (NILM) is load identification,
 ## Data Preparation
 The format of the data folder is as follows：
 1 data
+
 2  |-lilac
+
 3      |-aggregated
+
 4             |-current.npy
+
 5             |-labels.npy
+
 6             |-voltage.npy
+
 7  |-plaid2018
 8      |-aggregated
 9             |-current.npy
